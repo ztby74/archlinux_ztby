@@ -47,7 +47,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  done
  unset f
 fi
-feh --bg-center Downloads/src=http___img.pconline.com.cn_images_upload_upc_tx_softbbs_1003_07_c0_3134443_1267900790753_1024x1024soft.jpg\&refer=http___img.pconline.com.jpeg
+feh --bg-center Downloads/src=1.jpeg
 
 
 exec compton -b &
