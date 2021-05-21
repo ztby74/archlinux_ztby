@@ -1,5 +1,9 @@
   
 #!/bin/bash
 
-genfstab -U /mnt >> /mnt/etc/fstab
-timedatectl set-ntp true
+arch-chroot /mnt
+fish
+
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+
