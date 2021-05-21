@@ -1,12 +1,5 @@
 #!/bin/bash
 
-pacstrap /mnt base base-devel linux linux-firmware linux-headers vi vim neovim bash fish zsh reflector git dhcpcd
-
-genfstab -U /mnt >> /mnt/etc/fstab
-
-arch-chroot /mnt
-
-fish
 
 ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
